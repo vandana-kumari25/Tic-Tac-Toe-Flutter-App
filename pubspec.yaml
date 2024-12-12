@@ -1,0 +1,51 @@
+name: tic_tac_toe_app
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  lottie: ^3.2.0
+  assets_audio_player: ^3.1.1
+  rflutter_alert: ^2.0.7
+  delayed_display: ^2.0.0
+  anitex: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/ic_logo.png"
+  adaptive_icon_foreground: "assets/icons/ic_logo.png"
+  adaptive_icon_background: "assets/icons/ic_logo.png"
+
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audios/
+    - assets/lottie/
+    - assets/icons/
+
+  fonts:
+    - family: Paytone
+      fonts:
+        - asset: assets/fonts/PaytoneOne-Regular.ttf
+    - family: Carter
+      fonts:
+        - asset: assets/fonts/CarterOne-Regular.ttf
